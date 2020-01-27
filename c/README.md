@@ -26,7 +26,7 @@ The client establishes a connection with the server by calling `connect(sock, &s
 
 ### Sending and Receiving
 
-Use `send(sock, msg, msgLen, 0)` and `recv(sock, recvBuf, bufLen, 0)` function to exchange data with stream socket. `recvBuf` stores received bytes.
+Use `send(sock, msg, msgLen, 0)` and `read(sock, recvBuf, bufLen, 0)` function to exchange data with stream socket. `recvBuf` stores received bytes.
 
 ### Close a Socket
 
