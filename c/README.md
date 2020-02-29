@@ -8,9 +8,9 @@ Huadong Hu, Hamid Reza, Siqi Wang
 
 Launch terminal (seperate sessions on one machine) and compile the file: `gcc hellosrvC.c -o server` and `gcc helloC.c -o client`.
 
-To connect the C client to a server, ensure that the server is running first before running client. Run the server side: `./server`. Then run the client: `./client`.
+To connect the C client to a server, ensure that the server is running first before running client. Run the server: `./server <port>` with argument of the port server is listening. Then run the client: `./client <ip> <port>` with arguments of server ip and port.
 
-## Relavant Functions
+## Relavant Socket API
 
 ### Creating a Socket
 
